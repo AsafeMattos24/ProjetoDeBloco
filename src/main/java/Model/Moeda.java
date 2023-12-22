@@ -14,7 +14,7 @@ public class Moeda {
     private String codigo;
     private String simbolo;
 
-
+     private Endereco endereco;
     @Override
     public String toString(){
         return String.format("codigo (%s) - simbolo (%s) - nome (%s)", codigo,simbolo,nome);
@@ -48,6 +48,11 @@ public class Moeda {
         this.nome = nome;
     }
 
+    public Endereco getEndereco() {
+        return endereco;
+    }
 
-
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
+    }
 }

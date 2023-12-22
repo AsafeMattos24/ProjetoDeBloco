@@ -18,4 +18,8 @@ public class MoedaService {
     public Collection<Moeda> obterLista(){
         return (Collection<Moeda>) moedaRepository.findAll();
     }
+
+    public void excluir(Integer id ){
+        moedaRepository.deleteById(id);
+    }
 }

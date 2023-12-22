@@ -1,3 +1,3 @@
-USD;$;Dólar Norte-Americano;
-EUR;€;Euro;
-BRL;R$;Real;
+USD;$;Dólar Norte-Americano;20010-020
+EUR;€;Euro;20010-020
+BRL;R$;Real;20010-020
